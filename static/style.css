@@ -44,10 +44,6 @@ font-weight:bold;
 box-shadow:0 3px 8px rgba(0,0,0,0.4);
 }
 
-.navbar a:hover{
-background:#79122c;
-}
-
 main{
 padding:35px;
 }
