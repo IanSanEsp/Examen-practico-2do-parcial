@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Color</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<header class="header">
+<h1>COLOR</h1>
+
+<nav class="navbar">
+<a href="/">INICIO</a>
+<a href="/columna/peso">PESO</a>
+<a href="/columna/altura">ALTURA</a>
+<a href="/columna/velocidad">VELOCIDAD</a>
+<a href="/columna/color">COLOR</a>
+</nav>
+</header>
+
+<main>
+<section class="contenedor">
+<h2>Frecuencia Absoluta</h2>
+{{ datos.frecuencia_abs|safe }}
+{{ datos.barras|safe }}
+</section>
+
+<section class="contenedor">
+<h2>Frecuencia Relativa</h2>
+{{ datos.frecuencia_rel|safe }}
+{{ datos.pastel|safe }}
+</section>
+
+<section class="contenedor">
+<h2>Frecuencia Acumulada</h2>
+{{ datos.frecuencia_acum|safe }}
+</section>
+
+<section class="contenedor">
+<h2>Polígono de Frecuencias</h2>
+{{ datos.poligono|safe }}
+</section>
+
+<section class="contenedor tarjetas">
+<div class="card">
+<h3>Media</h3>
+<p>{{ datos.media }}</p>
+</div>
+
+<div class="card">
+<h3>Mediana</h3>
+<p>{{ datos.mediana }}</p>
+</div>
+
+<div class="card">
+<h3>Moda</h3>
+<p>{{ datos.moda }}</p>
+</div>
+</section>
+
+</main>
+</body>
+</html>

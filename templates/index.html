@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+<meta charset="UTF-8">
+<title>Inicio</title>
+<link rel="stylesheet" href="/static/style.css">
+</head>
+
+<body>
+<header class="header">
+
+<h1>
+Examen práctico 2do parcial IA
+</h1>
+
+<nav class="navbar">
+<a href="/columna/peso">Peso</a>
+<a href="/columna/altura">Altura</a>
+<a href="/columna/velocidad">Velocidad</a>
+<a href="/columna/color">Color</a>
+</nav>
+
+</header>
+
+<main>
+<section class="contenedor">
+<h2>
+Datos del CSV
+</h2>
+{{ tabla|safe }}
+</section>
+</main>
+
+</body>
+
+<footer>
+<p>
+Sánchez Espinosa Ian 6IV6
+</p>
+</footer>
+
+</html>
