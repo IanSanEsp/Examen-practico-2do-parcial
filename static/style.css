@@ -98,12 +98,13 @@ flex-wrap:wrap;
 .card{
 flex:1;
 min-width:220px;
-background:#9b0612;
+background:#9b06128c;
 color:white;
 padding:25px;
 border-radius:8px;
-text-align:center;
+text-align: justify;
 box-shadow:0 4px 14px rgba(0,0,0,0.4);
+align-items: center;
 }
 
 .card h3{
@@ -114,7 +115,6 @@ color:#ffffff;
 
 .card p{
 font-size:34px;
-font-weight:bold;
 }
 
 
