@@ -42,7 +42,7 @@ def frecuencia_acumulada(frecuencias):
 def calcular_media(columna):
     if columna == "color":
 
-        return "No aplica"
+        return "NA"
 
     return round(
         csv[columna].mean(),
@@ -52,7 +52,7 @@ def calcular_media(columna):
 def calcular_mediana(columna):
     if columna == "color":
 
-        return "No aplica"
+        return "NA"
 
     return round(
         csv[columna].median(),
